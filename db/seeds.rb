@@ -5,3 +5,8 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+art1 = Article.create(title: "Hello", description: "World!")
+art1 = Article.create(title: "Test", description: "This!")
+art1 = Article.create(title: "It's", description: "Working!")
+art1 = Article.create(title: "Leeroy", description: "Jenkins!")
